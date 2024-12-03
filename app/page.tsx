@@ -40,7 +40,7 @@ function Onboarding() {
         rewards—start now!
       </p>
       <button
-        className={`bg-mainPurple ${poppins.className} text-lg text-white text-center w-5/6 h-14 rounded-md transition duration-200 hover:bg-purple-700 mt-8`}
+        className={`bg-mainPurple ${poppins.className} text-lg text-white text-center w-5/6 h-14 rounded-md transition duration-200 hover:bg-black mt-12`}
       >
         Get Started
       </button>

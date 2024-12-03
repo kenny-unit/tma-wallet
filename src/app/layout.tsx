@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 
-import { inter, lato, poppins } from "@/src/fonts";
+import { inter, lato, poppins } from "@/fonts";
 
 export const metadata: Metadata = {
   title: "TON Mini App",

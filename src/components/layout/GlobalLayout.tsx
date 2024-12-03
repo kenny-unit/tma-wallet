@@ -6,7 +6,7 @@ interface GlobalLayoutProps {
 
 const GlobalLayout: React.FC<GlobalLayoutProps> = ({ children }) => {
   return (
-    <main className="flex min-h-dvh w-full flex-col items-center justify-center overflow-x-hidden bg-unit-gray-100 font-poppins">
+    <main className="flex min-h-dvh w-full flex-col items-center justify-center overflow-x-hidden bg-white font-poppins">
       {children}
     </main>
   );

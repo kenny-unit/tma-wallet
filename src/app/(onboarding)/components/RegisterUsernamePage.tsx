@@ -68,7 +68,7 @@ const RegisterUsernamePage = forwardRef<
         {...register("username")}
       />
       <Button type="submit" disabled={isSubmitting}>
-        Get Started
+        Next
       </Button>
     </form>
   );

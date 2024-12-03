@@ -23,7 +23,7 @@ export default function Home() {
 
 function Onboarding() {
   return (
-    <div className="h-screen w-screen grid grid-cols-1 place-items-center gap-0.5">
+    <div className="h-screen w-screen grid grid-cols-1 place-items-center gap-0">
       <Image
         src={onboardingImagePath}
         width={352}
@@ -31,16 +31,17 @@ function Onboarding() {
         alt="Unit's Logo"
         priority={true}
       />
-      <h1 className={`${poppins.className} text-3xl`}>
-        Welcome to Unit Network
+      <h1 className={`${poppins.className} text-4xl text-center`}>
+        Welcome to <br />
+        Unit Network
       </h1>
 
-      <p className={`${inter.className} m-8 text-center`}>
+      <p className={`${inter.className} mx-16 text-center text-gray-400`}>
         Secure your username, deposit crypto, swap assets, and earn
         rewards—start now!
       </p>
       <button
-        className={`bg-mainPurple ${poppins.className} text-sm px-6 py-3 text-white text-center w-96 h-12 rounded-md transition duration-200 hover:bg-purple-700`}
+        className={`bg-mainPurple ${poppins.className} text-lg text-white text-center w-5/6 h-14 rounded-md transition duration-200 hover:bg-purple-700`}
       >
         Get Started
       </button>

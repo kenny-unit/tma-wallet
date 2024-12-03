@@ -29,7 +29,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
     const [isPasswordVisible, setIsPasswordVisible] = React.useState(false);
 
     return (
-      <>
+      <div className="w-full space-y-2">
         <div
           className={cn(
             "relative w-full rounded-lg border border-gray-200 bg-white font-poppins text-base",
@@ -89,7 +89,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
         {errorMessage && (
           <p className="text-sm text-unit-red-400">{errorMessage}</p>
         )}
-      </>
+      </div>
     );
   },
 );
